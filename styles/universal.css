@@ -1,0 +1,29 @@
+/* Styles applied across the web site */
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background-color:burlywood;
+    position:relative;
+}
+
+ul li a{
+    color: #000;
+    font-size:20px;
+    font-weight:500;
+}
+
+ul li a:hover{
+    color: coral;
+    background-color: #000;
+    font-weight:700;
+}
+
+p{
+    color:#000;
+    margin: 10px -10px;
+    border: 2px #000 dotted;
+}

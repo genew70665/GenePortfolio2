@@ -1,0 +1,73 @@
+.myName{
+    text-align: center;
+    position: relative;
+}
+
+.welcome{
+    font-style:italic;
+    font-size: 18px;
+    font-weight: 500;
+    border:none;
+}
+
+.mynav{
+    position:absolute;
+    width: 100%;
+}
+.nav-item{
+    margin-right: 30px;
+}
+
+.section-title{
+    text-align: center;
+}
+
+.intro-text{
+    font-size: 22px;
+    margin-bottom:30px;
+}
+
+.separator{
+    border-top: 5px  blue dashed;
+    border-bottom: 5px  blue dashed;
+    padding: 10px 0px;
+    width:50%;
+    margin-left:25%;
+    margin-bottom:20px;
+}
+
+.row{
+    margin: 0px 3opx;
+}
+.col-md-6{
+    width:300px;
+    height:280px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.col-lg-4{
+    width:300px;
+    height:280px;
+    margin: 20px 0px;
+    text-align: center;
+}
+.text-description{
+    color: antiquewhite;
+    border:2px blue dotted;
+    height: 150px;
+    margin: 20px  0px;
+}
+
+.myfooter{
+    background-color: lightgrey;
+    height:40px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+}
+
+.myfooter p{
+    border:none;
+}
