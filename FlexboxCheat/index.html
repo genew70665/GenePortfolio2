@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="styles/utilities.css"></link>
+    <link rel="stylesheet" href="styles/styles.css"></link>
+
+    <title>Flexbox Fun!</title>
+  </head>
+  <body>
+    <h1>Flexbox Fun!</h1>
+    <div class="spacing"></div>
+    <div class="container-1">
+      <div class="box-1">
+        <h2>Simple Example</h2>
+          <ul>
+            <li>.container {  display: flex;
+            }
+            </li>
+            <li>
+              .container > div {
+                flex: 1 1 auto;
+              }
+              
+            </li>
+          </ul>
+      </div>
+      <div class="box-2">
+        <h2>Container</h2>
+        <p><.container {
+          display: flex; <br>
+          display: inline-flex; <br>
+          flex-direction: row;            /* ltr - default */ <br>
+          flex-direction: row-reverse;    /* rtl */  <br>
+          flex-direction: column;         /* top-bottom */  <br>
+          flex-direction: column-reverse; /* bottom-top */ <br>
+          flex-wrap: nowrap; /* one-line */  <br>
+          flex-wrap: wrap;   /* multi-line */  <br>
+          align-items: flex-start; /* vertical-align to top */  <br>
+          align-items: flex-end;   /* vertical-align to bottom */  <br>
+          align-items: center;     /* vertical-align to center */  <br>
+          align-items: stretch;    /* same height on all (default) */  <br>
+          justify-content: flex-start;    /* [xxx        ] */  <br>
+          justify-content: center;        /* [    xxx    ] */ <br>
+          justify-content: flex-end;      /* [        xxx] */  <br>
+          justify-content: space-between; /* [x    x    x] */ <br>
+          justify-content: space-around;  /* [ x   x   x ] */ <br>
+          justify-content: space-evenly;  /* [  x  x  x  ] */  <br>
+        }
+        /p> 
+      </div>
+      <div class="box-3">
+        <h2>Child</h2>
+        .container > div { <br>
+          /* This: */ <br>
+          flex: 1 0 auto; <br>
+          <br>
+          /* Is equivalent to this: */ <br>
+          flex-grow: 1; <br>
+          flex-shrink: 0; <br>
+          flex-basis: auto; <br>
+          order: 1; <br>
+          align-self: flex-start;  /* left */ <br>
+          margin-left: auto;       /* right */ <br>
+        }
+        
+        
+      </div>
+    </div>
+  <div class="spacing"></div>
+  <div class="container-2">
+          <div class="box-5">
+            <h2>Vertical Cemter</h2>
+            <p>
+              .container { <br>
+                display: flex; <br>
+              }<br>
+              
+              .container > div { <br>
+                width: 100px; <br>
+                height: 100px; <br>
+                margin: auto; <br>
+              } <br>
+              
+
+
+            </p>
+
+      </div>
+      <div class="box-6">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+          et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+          aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+          culpa qui officia deserunt mollit anim id est laborum.</p> 
+      </div>
+      <div class="box-7">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+          et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+          aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+          culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      
+    </div>
+    <div class="spacing"></div>
+  </body>
+</html>

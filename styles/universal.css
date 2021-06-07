@@ -5,8 +5,13 @@
     padding:0px;
 }
 
+
+.jumbotron{
+    background-color: #33ffff;
+}
+
 body{
-    background-color:burlywood;
+    background-color:#ccffff;
     position:relative;
 }
 
